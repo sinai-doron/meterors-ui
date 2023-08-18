@@ -29,6 +29,10 @@ function MeteorApp() {
 
   function handleYearSelection(year: string) {
     setSelectedYear(year);
+    updateScrollStatus(0, 0);
+    setMeteors([]);
+    setTotalCount(0);
+    setCount(0);
   }
 
   function handleMassUpdate(mass: string) {
