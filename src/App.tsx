@@ -1,12 +1,7 @@
 import React, { useState, useEffect } from "react";
 import meteorApi from "./services/meteorApi";
 import {
-  Form,
   Button,
-  Card,
-  Dropdown,
-  DropdownButton,
-  ListGroup,
   Accordion,
   Container,
   Row,

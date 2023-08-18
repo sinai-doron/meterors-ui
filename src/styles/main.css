@@ -1,0 +1,8 @@
+.custom-dropdown .dropdown-menu {
+    max-height: 400px; /* Adjust as needed */
+    overflow-y: auto;
+}
+
+h5.title {
+    margin-top: 20px;
+}
