@@ -10,7 +10,7 @@ interface MeteorCardProps {
 
 function MeteorCard({ meteor }:MeteorCardProps) {
   return (
-    <Accordion.Item key={meteor.id} eventKey={meteor.id + ""}>
+    <Accordion.Item key={meteor.id} eventKey={String(meteor.id)}>
       <Accordion.Header>{meteor.name}</Accordion.Header>
       <Accordion.Body>
         Year: {meteor.year || "Unknown"} <br />
