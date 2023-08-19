@@ -13,5 +13,5 @@ class MeteorApi {
         return this.instance.get(url, config);
     }
 }
-
-export default new MeteorApi();
+const meteorApi = new MeteorApi();
+export default meteorApi;

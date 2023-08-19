@@ -25,8 +25,6 @@ function MeteorApp() {
   const [scrollHasMore, setScrollHasMore] = useState(false);
   const [scrollCurrentPage, setScrollCurrentPage] = useState(1);
 
-  const items: any = [];
-
   function handleYearSelection(year: string) {
     setSelectedYear(year);
     updateScrollStatus(0, 0);
